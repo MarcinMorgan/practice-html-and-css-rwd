@@ -14,13 +14,13 @@ body {
 }
 
 .a, .b, .c {
-    display: flex;
     border: 3px solid transparent;
     min-height: 50px;
     height: 50vh;
     max-width: 1200px;
     width: 100vw;
 
+    display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,6 @@ body {
         grid-template: 
         'a a'
         'c b';
-        gap: 0;
     }
 
     .b, .c {
