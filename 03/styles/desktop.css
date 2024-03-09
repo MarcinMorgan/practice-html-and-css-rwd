@@ -1,6 +1,17 @@
 body {
+    max-width: 1400px;
+
     display:grid;
     grid-template:
     'p v'
     't t';
+    grid-template-columns:
+    minmax(auto, 1400px)
+    minmax(auto, 1400px);
+}
+
+.t {
+}
+
+.p, .v {
 }
