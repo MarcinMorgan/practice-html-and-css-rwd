@@ -14,13 +14,17 @@
 }
 
 .p {
-    border-color: #ffffba
+    border-color: #ffffba;
+    grid-area: p;
+
 }
 
 .t {
     border-color: #ffdfba;
+    grid-area: t;
 }
 
 .v {
     border-color: #baffc9;
+    grid-area: v;
 }
