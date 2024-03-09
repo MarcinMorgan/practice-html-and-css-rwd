@@ -3,12 +3,24 @@ body {
     grid-template:
     'p t'
     'v t';
-    grid-template-rows: 
+    grid-template-columns: 
     minmax(200px, 50vw)
     auto;
 }
 
-.p, .v {
-    max-width: 50vw;
-    min-width: 200px;
+
+.v {
+    height: 0;
+    padding-bottom: calc(315 / 560 * 100%);
+    position: relative;
+    width: 100%;
+}
+
+iframe {
+    border: 1px solid transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
 }

@@ -10,8 +10,18 @@ body {
     minmax(auto, 1400px);
 }
 
-.t {
+.v {
+    height: 0;
+    padding-bottom: calc(315 / 560 * 100%);
+    position: relative;
+    width: 100%;
 }
 
-.p, .v {
+iframe {
+    border: 1px solid transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
 }
