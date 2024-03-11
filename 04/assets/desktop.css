@@ -1,0 +1,7 @@
+.hamburger, .hamburger::after, .hamburger::before {
+    border: none;
+}
+
+ul {
+    display: block;
+}
