@@ -1,5 +1,4 @@
 .hamburger {
-    right: 0;
     width: 40px;
     height: 35px;
     border: 0;
@@ -24,4 +23,27 @@
 
 .hamburger:hover, .hamburger:hover::after, .hamburger:hover::before {
     border-color: darkcyan;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    position: relative;
+}
+
+.menu {
+    display: none;
+}
+
+.hamburger:focus ~ .menu {
+    position: absolute;
+    display: block;
+    z-index: 1;
+}
+
+.menu--item {
+    width: 100vw;
+    justify-content: center;
 }

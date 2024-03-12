@@ -1,4 +1,34 @@
 * {
+    margin: 0 auto;
+
     list-style-type: none;
     padding-inline-start: 0;
+    padding-bottom: 5px;
+}
+
+.containter {
+    width: 100vw;
+}
+
+nav {
+    outline: 1px solid green;
+    width: 100vw;
+    max-width: 1000px;
+}
+
+li, .main1, .main2, .second1, .second2, .second3 {
+    outline: 1px solid red;
+}
+
+.containter {
+    outline: 1px solid blue;
+}
+
+footer {
+    display: flex;
+}
+
+.menu--item {
+    background-color: #fff;
+    height: 20px;
 }
