@@ -4,6 +4,9 @@
 }
 
 .dropdown__item, .dropdown__subitem {
-    margin: auto;
+    background-color: #fff;
     border: 5px solid darkblue;
+    height: 20px;
+    margin: auto;
+    padding: 5px 20px;
 }

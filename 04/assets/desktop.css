@@ -22,3 +22,9 @@
     position: relative;
     text-align: center;
 }
+
+.dropdown__subitem {
+    left: 0;
+    top: 1em;
+    z-index: 1;
+}
