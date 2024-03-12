@@ -1,0 +1,27 @@
+.hamburger {
+    right: 0;
+    width: 40px;
+    height: 35px;
+    border: 0;
+    border-top: 5px solid #000;
+    background: transparent;
+    position: relative;
+}
+
+.hamburger::before, .hamburger::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 5px solid #000;
+    transform: translateY(10px);
+}
+
+.hamburger::after {
+    transform: translateY(25px);
+}
+
+.hamburger:hover, .hamburger:hover::after, .hamburger:hover::before {
+    border-color: darkcyan;
+}
