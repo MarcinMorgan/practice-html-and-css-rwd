@@ -26,5 +26,6 @@
 .dropdown__subitem {
     left: 0;
     top: 1em;
+    width: 30vw;
     z-index: 1;
 }
