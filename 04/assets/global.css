@@ -3,7 +3,7 @@
     padding-inline-start: 0;
 }
 
-li {
+.dropdown__item, .dropdown__subitem {
     margin: auto;
     border: 5px solid darkblue;
 }

@@ -1,5 +1,4 @@
 .hamburger {
-    margin: auto;
     width: 40px;
     height: 35px;
     border: 0;
@@ -30,10 +29,15 @@
     display: none;
 }
 
-.hamburger:hover ~ .dropdown__menu {
+.hamburger:focus ~ .dropdown__menu {
     display: block;
 }
 
 .dropdown__item:hover .dropdown__submenu {
     display: flex;
+}
+
+.dropdown__item {
+    width: 100vw;
+    text-align: left;
 }

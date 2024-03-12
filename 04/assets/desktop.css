@@ -2,9 +2,10 @@
     border: none;
 }
 
-
 .hamburger:hover ~ .dropdown__menu, .dropdown__menu {
+    top: 0;
     display: flex;
+    position: absolute;
 }
 
 .dropdown__submenu {
@@ -12,5 +13,12 @@
 }
 
 .dropdown__menu:hover > .dropdown__submenu {
+    position: absolute;
     display: block;
+}
+
+.dropdown__item {
+    width: 30vw;
+    position: relative;
+    text-align: center;
 }
