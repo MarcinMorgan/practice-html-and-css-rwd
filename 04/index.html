@@ -11,23 +11,26 @@
     <link rel="stylesheet" media="(min-width: 800px)" href="./assets/desktop.css">
 </head>
 <body>
-    <nav class="hamburger">
-        <ul>
-            <li>
+    <nav>
+        <div class="hamburger"></div>
+        <ul class="dropdown__menu">
+            <li class="dropdown__item">
                 <a href="#">start</a>
             </li>
-            <li>
+            <li class="dropdown__item">
                 <a href="#">oferta</a>
-                <ul>
-                    <li><a href="">strony internetowe</a></li>
-                    <li><a href="">pozycjonowanie stron www</a></li>
+                <ul class="dropdown__submenu">
+                    <li class="dropdown__subitem"><a href="">pozycjonowanie stron www</a></li>
+                    <li class="dropdown__subitem"><a href="">strony internetowe</a></li>
                 </ul>
             </li>
-            <li>
+            <li class="dropdown__item">
                 <a href="#">kontakt</a>
             </li>
         </ul>
     </nav>
+
+    
 
 </body>
 </html>

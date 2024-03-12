@@ -2,6 +2,15 @@
     border: none;
 }
 
-ul {
+
+.hamburger:hover ~ .dropdown__menu, .dropdown__menu {
+    display: flex;
+}
+
+.dropdown__submenu {
+    display: none;
+}
+
+.dropdown__menu:hover > .dropdown__submenu {
     display: block;
 }
